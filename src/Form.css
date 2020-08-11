@@ -1,0 +1,77 @@
+.input-group {
+  max-width: 100%;
+  padding: 1em;
+}
+
+.input-group {
+  margin: 2em 1em 0;
+}
+
+.input-group__header {
+  margin-top: -1.7em;
+  margin-bottom: 1em;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  padding: 0 0.5em;
+}
+
+.input-group__validation-message--hidden {
+  visibility: hidden;
+  -webkit-visibility: hidden;
+  -moz-visibility: hidden;
+}
+.input-group__validation-message--active {
+  visibility: visible;
+  -webkit-visibility: visible;
+  -moz-visibility: visible;
+  color: #1600ff;
+  text-align: center;
+}
+
+.input-group__input {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.input-group__button {
+  margin-right: 0;
+  margin-left: auto;
+  padding: 0 1em;
+}
+
+.input-group {
+  background-color: #ffa3a6;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.input-group__header {
+  border: 2px solid #ffa3a6;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+}
+
+.input-group__input {
+  border: 1px solid #c9a8a9;
+}
+
+.input-group__button {
+  border: 1px solid #000;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  background-color: #000;
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .input-group {
+    margin: 2em 2em 0;
+  }
+}

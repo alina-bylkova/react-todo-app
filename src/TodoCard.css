@@ -1,0 +1,71 @@
+.item__container {
+  max-width: 100%;
+  padding: 1em;
+  margin: 0.5em 1em 0;
+}
+
+.item__container--pending {
+  background-color: #c3f2e3;
+}
+
+.item__container--pending .item__remove-button {
+  visibility: hidden;
+  -webkit-visibility: hidden;
+  -moz-visibility: hidden;
+}
+
+.item__container--pending .item__title,
+.item__container--pending .item__description {
+  text-decoration: none;
+  color: #000;
+  font-style: normal;
+}
+
+.item__container--done {
+  background-color: #f3f3f3;
+}
+
+.item__container--done .item__remove-button {
+  visibility: visible;
+  -webkit-visibility: visible;
+  -moz-visibility: visible;
+}
+
+.item__container--done .item__title,
+.item__container--done .item__description {
+  text-decoration: line-through;
+  color: #929292;
+  font-style: italic;
+}
+
+.item__remove-button {
+  margin-right: 0;
+  margin-left: auto;
+  padding: 0 1em;
+}
+
+.item__container {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.item__title,
+.item__description {
+  font-size: 1.5em;
+}
+
+.item__remove-button {
+  border: 1px solid #de0e3a;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  background-color: #de0e3a;
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .item__container {
+    margin: 0.5em 2em 0;
+  }
+}
