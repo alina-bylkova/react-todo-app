@@ -8,6 +8,8 @@ Simple todo application built in React using stateful class components and prop 
 - React-FontAwesome
 - Flexbox
 
+## Images
+
 ![Image of todo app](https://github.com/alinabylkova/react-todo-app/blob/master/todo.png)
 
 ### To test it out, run:
